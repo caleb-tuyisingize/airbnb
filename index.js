@@ -1,6 +1,7 @@
 const topMenus = document.getElementById("top-menus");
 const topitems = document.getElementById("top-items");
 const searchBar = document.getElementById("search-bar");
+const img = document.querySelectorAll("#img");
 
 window.addEventListener("scroll", () => {  
     const scrollPosition = window.scrollY;
@@ -9,9 +10,11 @@ window.addEventListener("scroll", () => {
         topMenus.classList.remove("hidden");
         topMenus.classList.add("flex");
         topitems.classList.add("hidden");
+        img.forEach((image) => image.classList.add("hidden"));
     } else {
         topMenus.classList.add("hidden");
         searchBar.classList.remove("hidden");
+        img.forEach((image) => image.classList.remove("hidden"));
         topitems.classList.remove("hidden");
     }
 })

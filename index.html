@@ -8,7 +8,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-  <div class="flex p-3 justify-between bg-gray-100 w-full fixed top-0">
+  <div class="lg:hidden p-4 justify-between bg-gray-100 w-full fixed top-0">
+       <div class="menus flex items-center content-center h-18 border-1 border-gray-200 px-10  w-[90%] rounded-full shadow-xl">
+        <i class="fas fa-search"></i>&nbsp;&nbsp;&nbsp; Start your search
+        </div><br>
+
+    <div class="middle-header w-[90%]">
+      <div class="top-items flex justify-center space-x-2">
+        <!--Homes of the Airbnb  -->
+        <div class="homes items-center">
+          <img id="img" class="w-10" src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png?im_w=240" alt="">
+          <span class="text-gray-900 text-[12px] font-semibold">Homes</span>
+        </div>
+        <hr class="scale-y-[3] bg-gray-900">
+        <div class="homes items-center">
+          <img id="img" class="w-10 mx-6" src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/e47ab655-027b-4679-b2e6-df1c99a5c33d.png" alt="">
+          <span class="text-gray-900 font-regular">Experiences</span>
+        </div>
+        <!--Experiences of the Airbnb  -->
+        <div class="homes items-center">
+
+          
+        </div>       
+
+        <!--Services of the Airbnb  -->
+        <div class="homes content-center">
+          <div class="newest ">
+            <img id="img" class="w-10 mx-2" src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240" alt="">
+          </div>
+          <span class="text-gray-900 font-regular">Services</span>
+        </div> 
+      </div>
+      <br>
+
+    </div>
+  </div>
+</div>
+  
+  <div class="lg:flex hidden p-3 justify-between bg-gray-100 w-full fixed top-0">
     <div class="log">
       <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22102%22%20height%3D%2232%22%20viewBox%3D%220%200%203490%201080%22%20style%3D%22display%3A%20block%3B%22%3E%3Cpath%20d%3D%22M1494.71%20456.953C1458.28%20412.178%201408.46%20389.892%201349.68%20389.892C1233.51%20389.892%201146.18%20481.906%201146.18%20605.892C1146.18%20729.877%201233.51%20821.892%201349.68%20821.892C1408.46%20821.892%201458.28%20799.605%201494.71%20754.83L1500.95%20810.195H1589.84V401.588H1500.95L1494.71%20456.953ZM1369.18%20736.895C1295.33%20736.895%201242.08%20683.41%201242.08%20605.892C1242.08%20528.373%201295.33%20474.888%201369.18%20474.888C1443.02%20474.888%201495.49%20529.153%201495.49%20605.892C1495.49%20682.63%201443.8%20736.895%201369.18%20736.895ZM1656.11%20810.195H1750.46V401.588H1656.11V810.195ZM948.912%20666.715C875.618%20506.859%20795.308%20344.664%20713.438%20184.809C698.623%20155.177%20670.554%2098.2527%20645.603%2067.8412C609.736%2024.1733%20556.715%200.779785%20502.915%200.779785C449.115%200.779785%20396.094%2024.1733%20360.227%2067.8412C335.277%2098.2527%20307.207%20155.177%20292.392%20184.809C210.522%20344.664%20130.212%20506.859%2056.9187%20666.715C47.5621%20687.769%2024.9504%20737.675%2016.3736%20760.289C6.2373%20787.581%200.779297%20817.213%200.779297%20846.845C0.779297%20975.509%20101.362%201079.22%20235.473%201079.22C346.193%201079.22%20434.3%201008.26%20502.915%20934.18C571.53%201008.26%20659.638%201079.22%20770.357%201079.22C904.468%201079.22%201005.83%20975.509%201005.83%20846.845C1005.83%20817.213%20999.593%20787.581%20989.457%20760.289C980.88%20737.675%20958.268%20687.769%20948.912%20666.715ZM502.915%20810.195C447.555%20738.455%20396.094%20649.56%20396.094%20577.819C396.094%20506.079%20446.776%20470.209%20502.915%20470.209C559.055%20470.209%20610.516%20508.419%20610.516%20577.819C610.516%20647.22%20558.275%20738.455%20502.915%20810.195ZM770.357%20998.902C688.362%20998.902%20618.032%20941.557%20555.741%20872.656C619.966%20792.541%20690.826%20679.121%20690.826%20577.819C690.826%20458.513%20598.04%20389.892%20502.915%20389.892C407.79%20389.892%20315.784%20458.513%20315.784%20577.819C315.784%20679.098%20386.145%20792.478%20450.144%20872.593C387.845%20941.526%20317.491%20998.902%20235.473%20998.902C146.586%20998.902%2081.0898%20931.061%2081.0898%20846.845C81.0898%20826.57%2084.2087%20807.856%2091.2261%20788.361C98.2436%20770.426%20120.855%20720.52%20130.212%20701.025C203.505%20541.17%20282.256%20380.534%20364.126%20220.679C378.941%20191.047%20403.891%20141.921%20422.605%20119.307C442.877%2094.3538%20470.947%2081.0975%20502.915%2081.0975C534.883%2081.0975%20562.953%2094.3538%20583.226%20119.307C601.939%20141.921%20626.89%20191.047%20641.704%20220.679C723.574%20380.534%20802.325%20541.17%20875.618%20701.025C884.975%20720.52%20907.587%20770.426%20914.604%20788.361C921.622%20807.856%20925.52%20826.57%20925.52%20846.845C925.52%20931.061%20859.244%20998.902%20770.357%20998.902ZM3285.71%20389.892C3226.91%20389.892%203175.97%20413.098%203139.91%20456.953V226.917H3045.56V810.195H3134.45L3140.69%20754.83C3177.12%20799.605%203226.94%20821.892%203285.71%20821.892C3401.89%20821.892%203489.22%20729.877%203489.22%20605.892C3489.22%20481.906%203401.89%20389.892%203285.71%20389.892ZM3266.22%20736.895C3191.6%20736.895%203139.91%20682.63%203139.91%20605.892C3139.91%20529.153%203191.6%20474.888%203266.22%20474.888C3340.85%20474.888%203393.32%20528.373%203393.32%20605.892C3393.32%20683.41%203340.07%20736.895%203266.22%20736.895ZM2827.24%20389.892C2766.15%20389.892%202723.56%20418.182%202699.37%20456.953L2693.13%20401.588H2604.24V810.195H2698.59V573.921C2698.59%20516.217%202741.47%20474.888%202800.73%20474.888C2856.87%20474.888%202888.84%20513.097%202888.84%20578.599V810.195H2983.19V566.903C2983.19%20457.733%202923.15%20389.892%202827.24%20389.892ZM1911.86%20460.072L1905.62%20401.588H1816.73V810.195H1911.08V604.332C1911.08%20532.592%201954.74%20486.585%202027.26%20486.585C2042.85%20486.585%202058.44%20488.144%202070.92%20492.043V401.588C2059.22%20396.91%202044.41%20395.35%202028.04%20395.35C1978.58%20395.35%201936.66%20421.177%201911.86%20460.072ZM2353.96%20389.892C2295.15%20389.892%202244.21%20413.098%202208.15%20456.953V226.917H2113.8V810.195H2202.69L2208.93%20754.83C2245.36%20799.605%202295.18%20821.892%202353.96%20821.892C2470.13%20821.892%202557.46%20729.877%202557.46%20605.892C2557.46%20481.906%202470.13%20389.892%202353.96%20389.892ZM2334.46%20736.895C2259.84%20736.895%202208.15%20682.63%202208.15%20605.892C2208.15%20529.153%202259.84%20474.888%202334.46%20474.888C2409.09%20474.888%202461.56%20528.373%202461.56%20605.892C2461.56%20683.41%202408.31%20736.895%202334.46%20736.895ZM1703.28%20226.917C1669.48%20226.917%201642.08%20254.326%201642.08%20288.13C1642.08%20321.934%201669.48%20349.343%201703.28%20349.343C1737.09%20349.343%201764.49%20321.934%201764.49%20288.13C1764.49%20254.326%201737.09%20226.917%201703.28%20226.917Z%22%20fill%3D%22currentcolor%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" class="" alt="">
     </div>
@@ -89,158 +126,15 @@
       <button><i class="fa-solid fa-bars"></i></button>
     </div>
   </div>
-
-  <section class="mt-50">
+<div class="w-screen overflow-x-hidden">
+  <!-- Nairobi -->
+ 
+  <section  class="mt-50 lg:w-full w-[98%]">
     <!-- Nairobi -->
-     <div class="px-12">
+     <div class="lg:px-12 px-4">
       <span class="font-semibold text-2xl">Popular homes in Nairobi <i class="fa-solid fa-chevron-right"></i></span>
 <br>
-<div class="flex space-x-4 w-full overflow-x-scroll">
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-  <div class="w-[190px]">
-    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
-      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
-      <i class="fas fa-heart"></i></div>
-    </div>
-    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
-    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
-  </div>
-
-
-</div>
-</section><br><br>
-  <section>
-    <!-- Nairobi -->
-     <div class="px-12">
-      <span class="font-semibold text-2xl">Popular homes in Nairobi <i class="fa-solid fa-chevron-right"></i></span>
-<br>
-<div class="flex space-x-4 w-full overflow-x-scroll">
+<div class="flex space-x-4 lg:w-full w-[calc(100%-1rem)] overflow-x-hidden">
 
   <div class="w-[190px]">
     <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
@@ -381,6 +275,545 @@
 </div>
      </div>
   </section>
+<br><br>
+ <section class="lg:w-full w-[98%]">
+  <div class="lg:px-12 px-4">
+    <span class="font-semibold text-2xl">Available next month in Paris <i class="fa-solid fa-chevron-right"></i></span>
+    <br>
+<div class="flex space-x-4 w-full overflow-x-hidden">
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/ec2601a3-5f81-4ad6-809b-2348afa667a5.jpg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/hosting/Hosting-1217865057786093040/original/416ba415-a88b-422f-b396-1fed44292f3f.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/ec2601a3-5f81-4ad6-809b-2348afa667a5.jpg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/hosting/Hosting-1217865057786093040/original/416ba415-a88b-422f-b396-1fed44292f3f.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+
+</div>
+</section><br><br>
+
+ <section class="lg:w-full w-[98%]">
+  <div class="lg:px-12 px-4">
+    <span class="font-semibold text-2xl">Stay in London <i class="fa-solid fa-chevron-right"></i></span>
+    <br>
+<div class="flex space-x-4 w-full overflow-x-hidden">
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/ec2601a3-5f81-4ad6-809b-2348afa667a5.jpg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/hosting/Hosting-1217865057786093040/original/416ba415-a88b-422f-b396-1fed44292f3f.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/ec2601a3-5f81-4ad6-809b-2348afa667a5.jpg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/hosting/Hosting-1217865057786093040/original/416ba415-a88b-422f-b396-1fed44292f3f.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+
+</div>
+</section><br><br>
+
+  <section class="lg:w-full w-[98%]">
+    <!-- Nairobi -->
+     <div class="lg:px-12 px-4">
+      <span class="font-semibold text-2xl">Available next month in Al - Riyad <i class="fa-solid fa-chevron-right"></i></span>
+<br>
+<div class="flex space-x-4 w-full overflow-x-hidden">
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942033041505734494/original/edbbfde8-2a50-443c-afcb-3db09e1592c7.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+  <div class="w-[190px]">
+    <div class="card mt-5 bg-[url(https://a0.muscache.com/im/pictures/miso/Hosting-942449984509127271/original/bf30050e-fa23-4f0a-8517-3f5425998eef.jpeg)] w-[190px] h-[170px] rounded-[20px] bg-cover">
+      <div class="flex items-center justify-around h-10"><div class="bg-gray-200 text-gray-900 font-semibold mt-2 mx-3 px-2 py-1 w-[100px] h-7 text-[12px] rounded-full">Guest Favorite</div> 
+      <i class="fas fa-heart"></i></div>
+    </div>
+    <h2 class="text-gray-900 font-semibold">Appartment in Upper Hill Estate</h2>
+    <span class="text-gray-600">$46 for 2 nights · <i class="fa-solid fa-star text-[9px]"></i> 4.9</span>
+  </div>
+
+
+</div>
+     </div>
+  </section>
+<section class="lg:w-full w-[98%]">
+  <div class="lg:px-12 px-4">
+    <h2 class="font-semibold text-2xl text-gray-900 ">Inspiration for future getaways</h2><br>
+    <div class="footer-header flex border-b-1 border-gray-300 space-x-5" >
+     <div class="tips space-y-2 text-black font-semibold"> <h2>Travel tips & inspiration</h2> <hr></div>
+     <div class="tips space-y-2 text-gray-600 font-bold"> <h2>Airbnb-friendly apartments</h2></div>
+
+    </div><br><br>
+    <div class="1st-contents grid lg:grid-cols-6 grid-cols-1 gap-4">
+      <div>
+        <h1 class="text-2lg text-black font-semibold">Family travel hub</h1>
+        <p class="text-gray-700">Tips and inspiration</p>
+      </div>
+
+      <div>
+        <h1 class="text-2lg text-black font-semibold">Family budget travel</h1>
+        <p class="text-gray-700">Get there for less</p>
+      </div>
+
+      <div>
+        <h1 class="text-2lg text-black font-semibold">Vacation ideas for any budget</h1>
+        <p class="text-gray-700">Make it special without making it spendy</p>
+      </div>
+
+      <div>
+        <h1 class="text-2lg text-black font-semibold">Travel Europe on a budget</h1>
+        <p class="text-gray-700">How to take the kids to Europe for less</p>
+      </div>
+
+      <div>
+        <h1 class="text-2lg text-black font-semibold">Outdoor adventure</h1>
+        <p class="text-gray-700">Explore nature with the family</p>
+      </div>
+
+      <div>
+        <h1 class="text-2lg text-black font-semibold">Bucket list national parks</h1>
+        <p class="text-gray-700">Must-see parks for family travel</p>
+      </div>
+
+      <div>
+        <h1 class="text-2lg text-black font-semibold">Kid-friendly state parks</h1>
+        <p class="text-gray-700">Check out these family-friendly parks</p>
+  </div>
+</section>
+<br>
+<br>
+<section class="lg:w-full w-[98%]">
+  <div class="lg:px-12 px-4 grid lg:grid-cols-3 grid-cols-2 gap-4 lg:gap-4">
+   <div class="bg-gray-100 p-4 rounded-lg space-y-2">
+     <h2 class="text-lg font-semibold">Support</h2>
+     <a href="#" class="text-gray-900 hover:underline">Help Center</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">AirCover</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Anti-discrimination</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Disability support</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Cancellation options</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Report neighborhood concern</a><br><br>
+   </div>
+
+
+   <div class="bg-gray-100 p-4 rounded-lg space-y-2">
+     <h2 class="text-lg font-semibold">Hosting</h2>
+     <a href="#" class="text-gray-900 hover:underline">Airbnb your home</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Airbnb your experience</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Airbnb your service</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">AirCover for Hosts</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Hosting resources</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Community forum</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Hosting responsibly</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Airbnb-friendly apartments</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Join a free Hosting class</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Find a co-host</a><br><br>
+   </div>
+
+
+   <div class="bg-gray-100 p-4 rounded-lg space-y-2">
+     <h2 class="text-lg font-semibold">Airbnb</h2>
+     <a href="#" class="text-gray-900 hover:underline">2025 Summer Release</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Newsroom</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Careers</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Investors</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Gift cards</a><br><br>
+     <a href="#" class="text-gray-900 hover:underline">Airbnb.org emergency stays</a><br><br>
+   </div>
+
+
+
+  </div>
+</section>
+<br>
+<footer class="bg-gray-100 p-4 rounded-lg grid lg:flex lg:grid-cols-2 grid-cols-1 space-y-5 justify-between lg:w-full w-[98%]">
+  <div class="flex-grow lg:px-12 px-4">
+    <p class="text-gray-700 space-x-4">&copy; 2025 Airbnb, Inc.·<a class="text-gray-900 hover:underline" href="#">Terms</a>·<a class="text-gray-900 hover:underline" href="#">Sitemap</a>·<a class="text-gray-900 hover:underline" href="#">Privacy</a>·<a class="text-gray-900 hover:underline" href="#">Your Privacy Choices</a></p>
+  </div>
+  <div class="icons flex space-x-5 w-[400px]">
+    <a><i class="fas fa-globe"></i> English (US)</a>
+    <a>$ USD</a>
+    <a><i class="fab fa-facebook"></i></a>
+    <a><i class="fab fa-x-twitter"></i></a>
+    <a><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+</div>
 </body>
 <script src="index.js"></script>
 </html>
